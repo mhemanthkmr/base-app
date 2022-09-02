@@ -11,6 +11,12 @@ import {
 } from "react-native";
 import { NativeBaseProvider } from "native-base";
 import WelcomeScreen from "./components/WelcomeScreen";
+import Sample from "./components/Sample";
+import FlexDirectionBasics from "./components/FlexDirectionBasics";
+import Container1 from "./components/Container";
+import Example from "./components/Example";
+import ReactNativeVstack from "./components/ReactNativeVstack";
+import FlexRow from "./components/FlexRow";
 
 // const handlePress = () => {
 //   console.log("Pressed");
@@ -19,7 +25,7 @@ import WelcomeScreen from "./components/WelcomeScreen";
 export default function App() {
   return (
     <NativeBaseProvider>
-      <WelcomeScreen />
+      <ReactNativeVstack />
     </NativeBaseProvider>
   );
 }
