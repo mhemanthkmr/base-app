@@ -17,6 +17,7 @@ import Container1 from "./components/Container";
 import Example from "./components/Example";
 import ReactNativeVstack from "./components/ReactNativeVstack";
 import FlexRow from "./components/FlexRow";
+import Categories from "./components/Categories";
 
 // const handlePress = () => {
 //   console.log("Pressed");
@@ -25,7 +26,8 @@ import FlexRow from "./components/FlexRow";
 export default function App() {
   return (
     <NativeBaseProvider>
-      <ReactNativeVstack />
+      {/* <ReactNativeVstack /> */}
+      <Categories />
     </NativeBaseProvider>
   );
 }
