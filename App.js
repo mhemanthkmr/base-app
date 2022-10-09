@@ -18,6 +18,7 @@ import Example from "./components/Example";
 import ReactNativeVstack from "./components/ReactNativeVstack";
 import FlexRow from "./components/FlexRow";
 import Categories from "./components/Categories";
+import Carousel from "./components/Carousel";
 
 // const handlePress = () => {
 //   console.log("Pressed");
@@ -27,7 +28,8 @@ export default function App() {
   return (
     <NativeBaseProvider>
       {/* <ReactNativeVstack /> */}
-      <Categories />
+      {/* <Carousel /> */}
+      <Text>Hemanth</Text>
     </NativeBaseProvider>
   );
 }
